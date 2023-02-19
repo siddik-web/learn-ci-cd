@@ -1,0 +1,20 @@
+{
+  "name": "learn-ci-cd",
+  "version": "1.0.0",
+  "description": "Learning CI/CD",
+  "main": "index.js",
+  "author": "Md Siddiqur Rahman",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production ./src/app.js -o public"
+  },
+  "dependencies": {
+    "terser": "^5.16.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
